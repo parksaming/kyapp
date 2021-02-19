@@ -1,0 +1,43 @@
+div.info-filter{
+    display: flex;
+    height: 45px;
+    margin-bottom: 14px;
+}
+div#organization-info{
+    display: flex;
+    width: 50%;
+    line-height: 43px;
+}
+div#organization-filter{
+    width: 50%;
+    margin-top: 10px;
+}
+div.info{
+    width: 25%;
+    border:1px solid blue;
+    text-align: center;
+}
+div.info-name{
+    float:left;
+    width: 70%;
+    border-right: 1px solid blue;
+}
+div.value{
+    float:right;
+    width: 30%;
+}
+div#organization-info div.info:not(:first-child){
+    margin-left:10px;
+}
+#grid-company .table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #044368 !important;
+}
+#grid-company th{
+    color:#044368;
+    text-align: center;
+}
